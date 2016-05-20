@@ -37,6 +37,24 @@
      
   </div><!-- /.container-fluid -->
 </nav>
+ <div class="container">
+        <div class="row">
+            <div class="col-md-offset-3 col-md-6">
+                <h1>User Profile</h1>
+                <form class="form" id="form1" runat="server">
+                    <div class="form-group">
+                        <asp:Label ID="FirstNameLabel" Text="First Name:" runat="server" />
+                        <asp:TextBox CssClass="form-control" ID="FirstNameTextBox" runat="server" required="true" CausesValidation="True" />
+                    </div>
+                    <div class="form-group">
+                        <asp:Label ID="LastNameLabel" Text="Last Name:" runat="server" />
+                        <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
+                    </div>
+                    </form>
+                    </div>
+            </div>
+     </div>
+    
       <!-- JavaScript -->
     <script src="Scripts/jquery-2.2.3.min.js"></script>
     <script src="Scripts/bootstrap.min.js"></script>
