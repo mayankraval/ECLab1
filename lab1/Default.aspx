@@ -58,7 +58,7 @@
                         <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true" CausesValidation="True" />
                         <br />
                          <!-- age range validation -->
-                        <asp:RangeValidator forcolor="red" ID="AgeRangeValidator" runat="server" ErrorMessage="Please enter a valid age from 1 to 120 " MaximumValue="120" MinimumValue="1" Type="Integer" ControlToValidate="AgeTextBox">
+                        <asp:RangeValidator forecolor="red" ID="AgeRangeValidator" runat="server" ErrorMessage="Please enter a valid age from 1 to 120 " MaximumValue="120" MinimumValue="1" Type="Integer" ControlToValidate="AgeTextBox">
 
                         </asp:RangeValidator>
                     </div>
