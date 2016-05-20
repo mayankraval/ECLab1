@@ -13,5 +13,10 @@ namespace lab1
         {
 
         }
+        protected void SubmitButton_Click(object sender, EventArgs e)
+        {
+            FullNameTextBox.Text = FirstNameTextBox.Text.ToString() + " " + LastNameTextBox.Text.ToString();
+        }
+
     }
 }
