@@ -50,6 +50,13 @@
                         <asp:Label ID="LastNameLabel" Text="Last Name:" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
                     </div>
+                     <div class="form-group">
+                        <asp:Label ID="AgeLabel" Text="Age:" runat="server" />
+                        <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true" CausesValidation="True" />
+                        <br />
+                         </div>
+                    
+                    <asp:Button CssClass="btn btn-primary" ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
                     </form>
                     </div>
             </div>
