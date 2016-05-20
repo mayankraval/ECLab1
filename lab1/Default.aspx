@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head runat="server">
-    <title></title>
+    <title>ASP.NET Web Forms Lab1</title>
     <!-- css links -->
     <link href="Content/bootstrap.min.css" rel="stylesheet" />
     <link href="Content/bootstrap-theme.min.css" rel="stylesheet" />
