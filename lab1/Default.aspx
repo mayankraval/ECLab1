@@ -52,13 +52,17 @@
                         <asp:Label ID="LastNameLabel" Text="Last Name:" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="LastNameTextBox" runat="server" required="true" CausesValidation="True" />
                     </div>
+
                      <div class="form-group">
                         <asp:Label ID="AgeLabel" Text="Age:" runat="server" />
                         <asp:TextBox CssClass="form-control" ID="AgeTextBox" runat="server" required="true" CausesValidation="True" />
                         <br />
-                         <!-- age range validator  -->
-                        <asp:RangeValidator forecolor="Red" ID="AgeRangeValidator" runat="server" ErrorMessage="Please enter a valid age from 1 to 120 " MaximumValue="120" MinimumValue="1" Type="Integer" ControlToValidate="AgeTextBox"></asp:RangeValidator>
+                         <!-- age range validation -->
+                        <asp:RangeValidator forcolor="red" ID="AgeRangeValidator" runat="server" ErrorMessage="Please enter a valid age from 1 to 120 " MaximumValue="120" MinimumValue="1" Type="Integer" ControlToValidate="AgeTextBox">
+
+                        </asp:RangeValidator>
                     </div>
+
                     <!-- button  -->
                     <asp:Button CssClass="btn btn-primary" ID="SubmitButton" runat="server" Text="Submit" OnClick="SubmitButton_Click" />
                     <div class="form-group">
